@@ -1,1 +1,27 @@
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Dancing Script", cursive;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+}
+.img1 {
+  transform: translateX(550px);
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  background: linear-gradient(rgba(0, 128, 0, 0.5), rgba(255, 255, 0, 0.5)),
+    url(../img/odamca1.jpg) center / cover no-repeat;
+}
